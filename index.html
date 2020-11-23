@@ -41,7 +41,7 @@
             </div>
             <div class="showcase-form card">
                 <h2>Request a Demo</h2>
-                <form>
+                <form action="mailto:nerocons@yahoo.com?subject=Request a demo" method="POST" enctype="text/plain">
                     <div class="form-control">
                         <input type="text" name="name" placeholder="Name" required>
                     </div>
@@ -51,7 +51,9 @@
                     <div class="form-control">
                         <input type="email" name="email" placeholder="Email" required>
                     </div>
+
                     <input type="submit" value="Send" class="btn btn-primary">
+                    <!-- <a href="mailto:nerocons@yahoo.com" class="btn btn-primary">Send</a> -->
                 </form>
             </div>
 

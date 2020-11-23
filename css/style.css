@@ -147,7 +147,7 @@ img {
 
 .stats {
     padding-top: 100px;
-    animation: slideFromBottom 1s ease-in;
+    animation: slideFromRight 1s ease-in;
 }
 
 .stats-heading {
